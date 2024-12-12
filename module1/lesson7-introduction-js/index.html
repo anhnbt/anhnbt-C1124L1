@@ -6,6 +6,7 @@
 </head>
 <body>
 <h1 id="heading">Tổng quan Javascript</h1>
+<div id="thongbao"></div>
 <ol>
     <li>Nhúng script trực tiếp vào tệp HTML sử dụng thẻ script</li>
     <li>Nhúng script trực tiếp vào thẻ HTML</li>
@@ -15,6 +16,8 @@
     Click here!
     <img id="pikachuImg" width="64px" src="images/pikachu.png" alt="">
 </button>
+<img src="../coding.gif" alt="">
+
 <!--Sử dụng đường dẫn tuyệt đối-->
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
 <!--Sử dụng đường dẫn tương đối-->
@@ -26,6 +29,12 @@
     prompt("Vui lòng nhập tên của bạn: ");
     confirm("Bạn có đồng ý lấy tớ không?");
      */
+    // debugger;
+    var x, y, z = 10;
+    console.log(x);
+    console.log('⚠️⚠️⚠️ Cẩn thận không bị hack! ⚠️⚠️⚠️');
+    document.write('⚠️⚠️⚠️ Cẩn thận không bị hack! ⚠️⚠️⚠️');
+    document.getElementById("thongbao").innerHTML = 'Đây là thông báo';
     $("#heading").html("Lesson 7 Introduction JavaScript!");
     document.getElementById("heading").style.color = 'red';
     document.getElementById("pikachuImg").src = 'https://cf.shopee.vn/file/vn-11134258-7ras8-m3m0v3m7ri64d9';
