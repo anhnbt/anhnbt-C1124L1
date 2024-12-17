@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="">
+    <label for="vatLy">Nhập điểm Vật lý: </label>
+    <input type="text" name="vatLy" id="vatLy">
+    <br><br>
+    <label for="hoaHoc">Nhập điểm Hóa học: </label>
+    <input type="text" name="hoaHoc" id="hoaHoc">
+    <br><br>
+    <label for="sinhHoc">Nhập điểm Sinh học: </label>
+    <input type="text" name="sinhHoc" id="sinhHoc">
+    <br><br>
+    <button type="button" onclick="tinhToan()">Tính toán</button>
+</form>
+<div id="kqTb">Điểm trung bình: </div>
+<div id="kqTong">Tổng: </div>
+<script>
+    function tinhToan() {
+        let vatLy = parseInt(document.getElementById("vatLy").value);
+        let hoaHoc = parseInt(document.getElementById("hoaHoc").value);
+        let sinhHoc = parseInt(document.getElementById("sinhHoc").value);
+        console.log(vatLy);
+        console.log(hoaHoc);
+        console.log(sinhHoc);
+        document.getElementById("kqTb").innerHTML = 'Điểm trung bình: ' + (vatLy + hoaHoc + sinhHoc) / 3;
+        document.getElementById("kqTong").innerHTML = 'Tổng: ' + (vatLy + hoaHoc + sinhHoc);
+    }
+    // let vatLy = parseInt(prompt("Nhập điểm Vật lý: "));
+    // let hoaHoc = parseInt(prompt("Nhập điểm Hóa học: "));
+    // let sinhHoc = parseInt(prompt("Nhập điểm Sinh học: "));
+    // alert("Điểm trung bình: " + (vatLy + hoaHoc + sinhHoc) / 3);
+    // alert("Tổng: " + (vatLy + hoaHoc + sinhHoc));
+</script>
+</body>
+</html>
