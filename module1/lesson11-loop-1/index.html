@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 11: Loop 1</title>
+</head>
+<body>
+<h1>Lesson 11: Loop 1</h1>
+<ul>
+    <li>Vòng lặp for</li>
+    <li>Vòng lặp while</li>
+    <li>Vòng lặp do..while</li>
+</ul>
+<div id="result">
+    <img src="./programming.gif" alt="">
+</div>
+<script>
+    // for (let i = 0, j = 10; i <= 10; i++, j--) {
+    //     let sum = i + j;
+    //     document.write(i + " + " + j + " = " + sum + "<br>");
+    // }
+    //
+    // let text = "";
+    // for (let i = 1; i <= 10; i++) {
+    //     // text += "5 * " + i + " = " + (5 * i) + "<br>";
+    //     text += i + '<img src="./d7a37479-74ac-4e88-ba09-d538d6a98d7f.gif" width="150px" alt=""><br>';
+    // }
+    // document.getElementById("result").innerHTML = text;
+    // let i = 0;
+    // while (i < 10) {
+    //     document.write('<img src="./d7a37479-74ac-4e88-ba09-d538d6a98d7f.gif" width="150px" alt=""><br>');
+    //     i++;
+    // }
+
+    // let text = "Hello";
+    //
+    // while (text !== 'q' && text != "") {
+    //     document.write(text);
+    //     text = prompt("Moi nhap 'q' de thoat!");
+    // }
+
+    // let counter = 0;
+    // while (counter <= 100) {
+    //     document.write("<hr style='width: "+counter+"%'>");
+    //     counter++;
+    // }
+    // for (let i = 0; i <= 100; i++) {
+    //     document.write("<hr style='width: "+i+"%'>");
+    // }
+    // let counter = 1;
+    // do {
+    //     document.write("Counter is " + counter + "<br>");
+    //     counter++;
+    // } while (counter <= 100);
+
+    let text = 1;
+    do {
+        document.write(text);
+        text = +prompt("Nhap cac so nguyen, nhap '0' de thoat!");
+    } while (text !== 0);
+</script>
+</body>
+</html>
