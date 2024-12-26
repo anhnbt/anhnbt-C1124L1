@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 12: Loop 2</title>
+</head>
+<body>
+<div id="bangCuuChuong"></div>
+<script>
+    // document.write("Bắt đầu vòng lặp!<br>");
+    // // internal
+    // let counter = 0;
+    // debugger;
+    // do {
+    //     // Template literals ` backtick "", ''
+    //     // if (counter === 3) {
+    //     //     break;
+    //     // }
+    //     counter++;
+    //     // if (counter === 3) {
+    //     //     continue;
+    //     // }
+    //     for (let i = 0; i < 10; i++) {
+    //         if (i === 3) continue;
+    //         document.write(i);
+    //     }
+    //     document.write(`${counter} break<br>`);
+    // } while (counter <= 10);
+    // document.write("Vòng lặp đã chạy xong!");
+
+    // for (let i = 0; i < 5; i++) {
+    //     for (let j = 0; j <= i; j++) {
+    //         document.write("*");
+    //     }
+    //     document.write("<br>");
+    // }
+
+    const center = "CodeGym";
+    // document.write(center[1]);
+    // for (let i = 0; i < center.length; i++) {
+    //     document.write(center[i] + "<br>")
+    // }
+    // for (const c of center) {
+    //     document.write(c + "<br>")
+    // }
+    // for (let i = center.length - 1; i >= 0; i--) {
+    //     document.write(center[i]);
+    // }
+    // for (const centerKey in center) {
+    //     document.write(center[centerKey] + "<br>");
+    // }
+    // [1, 2, 3, 4, 5].forEach(function (item) {
+    //     document.write(item + "<br>");
+    // })
+    // debugger;
+    var html = "<table border='1'>";
+    for (let i = 1; i <= 10; i++) {
+        html += '<tr>';
+        for (let j = 2; j <= 10; j++) {
+            html += "<td>" + i + " * " + j + " = " + (i * j) + "</td>";
+        }
+        html += '</tr>';
+    }
+    html += '</table>';
+    document.getElementById("bangCuuChuong").innerHTML = html;
+</script>
+</body>
+</html>
