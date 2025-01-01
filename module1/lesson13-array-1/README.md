@@ -3,7 +3,7 @@
 ## Giới thiệu
 Mảng trong JavaScript là một loại biến đặc biệt, được dùng để lưu trữ nhiều giá trị. Một mảng bao gồm một danh sách có thứ tự, có thể chứa nhiều kiểu dữ liệu khác nhau. Các phần tử trong mảng được truy cập bằng chỉ mục (index), bắt đầu từ 0.
 
-Mảng giúp tổ chức mã nguồn một cách ngắn gọn, dễ đọc và bảo trì hơn. Chúng có thể chứa bất kỳ kiểu dữ liệu nào (Xem lại bài 7. Biến, kiểu dữ liệu và toán tử), bao gồm số (number), chuỗi (string) và đối tượng (object) (Chúng ta sẽ học ở buổi 16. Lập trình hướng đối tượng 1).
+Mảng giúp tổ chức mã nguồn một cách ngắn gọn, dễ đọc và bảo trì hơn. Chúng có thể chứa bất kỳ kiểu dữ liệu nào (Xem lại bài [7. Biến, kiểu dữ liệu và toán tử](https://james.codegym.vn/course/view.php?id=572#section-7)), bao gồm số (number), chuỗi (string) và đối tượng (object) (Chúng ta sẽ học ở buổi [16. Lập trình hướng đối tượng 1](https://james.codegym.vn/course/view.php?id=572#section-16)).
 
 ---
 
